@@ -1,0 +1,11 @@
+que 1)
+
+       html
+          |
+    head------------body
+        |            |
+        h1     Name---button
+
+as html has 2 elements first one being head which has 1 element h1 while body has 2 element one textbox with name Name and a button.
+
+que 2)

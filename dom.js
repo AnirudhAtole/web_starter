@@ -18,3 +18,16 @@ var h2header = document.getElementsByTagName('h2');
 
 h2header[0].style.color = ' #00ff00 ';
 h2header[0].style.fontWeight = 'bold';
+
+//get element byclass
+var items = document.getElementsByClassName('list-group-item');
+console.log(items);
+console.log(items[1]);
+
+items[2].style.backgroundColor = 'Green';
+
+for(let i = 0 ; i < items.length ; i++)
+{
+    items[i].style.fontWeight = 'bold';
+    items[i].style.color = 'red';
+}
