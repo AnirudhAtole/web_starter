@@ -12,22 +12,26 @@ var header = document.getElementById('main-header');
 
 // header_title.innerHTML = '<h3> Hello </h3>';
 
-header.style.borderBottom = 'solid 3px #000';
+// header.style.borderBottom = 'solid 3px #000';
 
-var h2header = document.getElementsByTagName('h2');
+// var h2header = document.getElementsByTagName('h2');
 
-h2header[0].style.color = ' #00ff00 ';
-h2header[0].style.fontWeight = 'bold';
+// h2header[0].style.color = ' #00ff00 ';
+// h2header[0].style.fontWeight = 'bold';
 
 //get element byclass
-var items = document.getElementsByClassName('list-group-item');
-console.log(items);
-console.log(items[1]);
+var li = document.getElementsByTagName('li');
+console.log(li);
+console.log(li[1]);
 
-items[2].style.backgroundColor = 'Green';
+li[2].style.backgroundColor = 'Green';
 
-for(let i = 0 ; i < items.length ; i++)
+for(let i = 0 ; i < li.length ; i++)
 {
-    items[i].style.fontWeight = 'bold';
-    items[i].style.color = 'red';
+    li[i].style.fontWeight = 'bold';
+    li[i].style.color = 'red';
 }
+
+var licl = document.getElementsByClassName('list-broup2-item');
+licl[0].style.color = 'green';
+licl[0].fontWeight = 'bold';
